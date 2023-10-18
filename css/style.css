@@ -490,3 +490,16 @@ h6,
         margin-bottom: -75px;
     }
 }
+
+
+#header-gradient {
+    background: linear-gradient(to bottom, rgba(81, 97, 118, 0.1), rgba(81, 97, 118, 0.3)), rgba(81, 97, 118, 0.5);
+    padding: 50px 0; /* Add some padding for better visibility */
+    border-radius: 10px;
+    backdrop-filter: blur(20px); /* Apply the glassmorphism effect */
+
+}
+
+#header-gradient h5, #header-gradient h1 {
+    color: white; /* Set text color to white for better visibility */
+}
